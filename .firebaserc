@@ -1,0 +1,7 @@
+{
+  "projects": {
+    "firebase deploy": "task-github-angular",
+    "default": "task-github-angular"
+  },
+  "targets": {}
+}
