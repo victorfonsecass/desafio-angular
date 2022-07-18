@@ -1,0 +1,79 @@
+
+.github-search
+{
+    font-family: Monaco;
+    font-size: 40px;
+    color: #000;
+}
+.text-style-2
+{
+    font-family: Raleway;
+    font-weight: 200;
+}
+.form-control
+{
+    font-family: Raleway;
+    color: #5c5c5c;
+    box-shadow: 0 0 0 0;
+    // outline: 0;
+}
+button 
+{
+    width: 65px;
+    height: 40px;
+    border-radius: 2px;
+}
+.btn-primary
+{
+    background-color: #ac53f2!important;
+    box-shadow: 0 0 0 0;
+    //  outline: 0;
+}
+.profile-card{
+    margin-top: 30px;
+}
+.user-name
+{
+    margin: 12px 50px 10px 3px;
+    font-family: Raleway;
+    font-size: 35px;
+    font-weight: 300;
+    color: #000;
+}
+.user-info
+{
+    margin: 10px 76px 12px 7px;
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 300;
+    color: #5c5c5c;
+}
+.user-follow
+{
+    margin: 14px 76px 13px 7px;
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 300;
+    color: #5c5c5c;
+}
+.repo-name
+{ 
+    font-family: Raleway;
+    font-size: 35px;
+    color: #ac53f2;
+    display: inline-block;   
+}
+.repo-description
+{
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 300;
+    color: #000;
+}
+.star-count
+{
+    font-family: Raleway;
+    font-size: 19px;
+    font-weight: 300;
+    color: #5c5c5c;
+}

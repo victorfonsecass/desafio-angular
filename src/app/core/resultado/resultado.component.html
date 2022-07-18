@@ -1,0 +1,42 @@
+<div class="row">
+  <div class="profile-card col-12 col-sm-12 col-md-3 col-lg-3"> 
+    <div *ngIf="profile">
+      <img src="{{profile?.avatar_url}}" class="img-fluid" alt="Responsive image"> 
+  
+      <p class="user-name h3" > {{profile.name}} </p> 
+      <p class="user-info h6"> {{profile.login}} </p>
+
+      <p class="user-info mt-4 h5">
+        <i class="bi bi-house-door">
+          {{profile.location}}
+        </i>
+      </p>
+      <p class="user-follow h5">
+        <i class="bi bi-people-fill">
+          {{profile.followers}}
+        </i>
+      </p>
+      <p class="user-follow h5">
+        <i class="bi bi-person-lines-fill">
+          {{profile.following}}
+        </i> 
+      </p>
+      <p class="h5"> {{profile.email}}  </p>
+    </div>
+  </div>
+  <div class="profile-info justify-content-center mt-4 pl-3 col-12 col-sm-9 col-md-9 col-lg-9">
+    <ul *ngFor="let repo of repos" class="pl-0"> 
+      <p class="repo-name h4">
+          {{repo.name}} 
+      </p>
+      <p class="repo-description mr-5 h6">
+        {{repo.description}}
+      </p>
+      <div class="star-count pt-2"> 
+        <p class="h6">
+          <i class="bi bi-star"> {{repo.stargazers_count}}</i>
+        </p>
+      </div>
+    </ul> 
+  </div>
+</div>

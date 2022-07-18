@@ -1,0 +1,6 @@
+http://api.github.com/users
+
+###
+
+GET http://api.github.com/users/mojombo
+
